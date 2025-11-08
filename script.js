@@ -244,7 +244,7 @@ const products = [
     "price": 6.0,
     "emoji": "🥐",
     "available": true,
-    "image": "./assets/coxinha_frango.jpeg.jpeg"
+    "image": "./assets/coxinha_frango.jpeg"
   },
   {
     "id": 29,
@@ -253,7 +253,7 @@ const products = [
     "price": 6.0,
     "emoji": "🥐",
     "available": true,
-    "image": "./assets/coxinha_charque.jpeg.jpeg"
+    "image": "./assets/coxinha_charque.jpeg"
   },
   {
     "id": 30,
@@ -262,7 +262,7 @@ const products = [
     "price": 6.0,
     "emoji": "🥐",
     "available": true,
-    "image": "./assets/pão_pizza.jpeg.jpeg"
+    "image": "./assets/pão_pizza.jpeg"
   },
   {
     "id": 31,
@@ -271,7 +271,7 @@ const products = [
     "price": 6.0,
     "emoji": "🥐",
     "available": true,
-    "image": "./assets/pão_frango.jpeg.jpeg"
+    "image": "./assets/pão_frango.jpeg"
   },
   {
     "id": 32,
@@ -280,7 +280,7 @@ const products = [
     "price": 10.0,
     "emoji": "🥐",
     "available": true,
-    "image": "./assets/brotinho.jpeg.jpeg"
+    "image": "./assets/brotinho.jpeg"
   }
 ];
 
