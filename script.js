@@ -5,15 +5,16 @@ const WHATSAPP_NUMBER = '+5581993949927';
 const products = [
   {
     "id": 1,
-    "name": "CHOCOLATE",
+    "name": "BOLO DE POTE SABOR CHOCOLATE",
     "description": "Massa de Baunilha e recheio de Chocolate",
     "price": 6.0,
     "emoji": "🍪",
-    "available": true
+    "available": true,
+    "image": "assets/bolo_pote_chocolate.jpeg"
   },
   {
     "id": 2,
-    "name": "BEIJINHO",
+    "name": "BOLO DE POTE SABOR BEIJINHO",
     "description": "Massa de Baunilha e recheio de Beijinho",
     "price": 6.0,
     "emoji": "🍪",
@@ -21,7 +22,7 @@ const products = [
   },
   {
     "id": 3,
-    "name": "BEM-CASADO",
+    "name": "BOLO DE POTE SABOR BEM-CASADO",
     "description": "Massa de Baunilha e recheio de Bem-casado",
     "price": 6.0,
     "emoji": "🍪",
@@ -29,7 +30,7 @@ const products = [
   },
   {
     "id": 4,
-    "name": "BRANQUINHO",
+    "name": "BOLO DE POTE SABOR BRANQUINHO",
     "description": "Massa de Baunilha e recheio de Branquinho",
     "price": 6.0,
     "emoji": "🍪",
@@ -37,7 +38,7 @@ const products = [
   },
   {
     "id": 5,
-    "name": "AMENDOIM",
+    "name": "BOLO DE POTE SABOR AMENDOIM",
     "description": "Massa de Baunilha e recheio de Amendoim",
     "price": 6.0,
     "emoji": "🍪",
@@ -45,7 +46,7 @@ const products = [
   },
   {
     "id": 6,
-    "name": "NINHO",
+    "name": "BOLO DE POTE SABOR NINHO",
     "description": "Massa de Baunilha e recheio de Ninho",
     "price": 6.0,
     "emoji": "🍪",
@@ -53,7 +54,7 @@ const products = [
   },
   {
     "id": 7,
-    "name": "MARACUJÁ",
+    "name": "BOLO DE POTE SABOR MARACUJÁ",
     "description": "Massa de Baunilha e recheio de Maracujá",
     "price": 6.0,
     "emoji": "🍪",
@@ -61,7 +62,7 @@ const products = [
   },
   {
     "id": 8,
-    "name": "CHOCOLATE",
+    "name": "BROWNIE CHOCOLATE",
     "description": "Pedaços de Brownies e recheio de Chocolate",
     "price": 8.0,
     "emoji": "🍪",
@@ -69,7 +70,7 @@ const products = [
   },
   {
     "id": 9,
-    "name": "BEIJINHO",
+    "name": "BROWNIE BEIJINHO",
     "description": "Pedaços de Brownies e recheio de Beijinho",
     "price": 8.0,
     "emoji": "🍪",
@@ -77,7 +78,7 @@ const products = [
   },
   {
     "id": 10,
-    "name": "BEM-CASADO",
+    "name": "BROWNIE BEM-CASADO",
     "description": "Pedaços de Brownies e recheio de Bem-casado",
     "price": 8.0,
     "emoji": "🍪",
@@ -85,7 +86,7 @@ const products = [
   },
   {
     "id": 11,
-    "name": "BRANQUINHO",
+    "name": "BROWNIE BRANQUINHO",
     "description": "Pedaços de Brownies e recheio de Branquinho",
     "price": 8.0,
     "emoji": "🍪",
@@ -93,7 +94,7 @@ const products = [
   },
   {
     "id": 12,
-    "name": "AMENDOIM",
+    "name": "BROWNIE AMENDOIM",
     "description": "Pedaços de Brownies e recheio de Amendoim",
     "price": 8.0,
     "emoji": "🍪",
@@ -101,7 +102,7 @@ const products = [
   },
   {
     "id": 13,
-    "name": "NINHO",
+    "name": "BROWNIE NINHO",
     "description": "Pedaços de Brownies e recheio de Ninho",
     "price": 8.0,
     "emoji": "🍪",
@@ -109,7 +110,7 @@ const products = [
   },
   {
     "id": 14,
-    "name": "CHURROS",
+    "name": "BROWNIE CHURROS",
     "description": "Pedaços de Brownies e recheio de Churros (Com canela)",
     "price": 8.0,
     "emoji": "🍪",
@@ -117,7 +118,7 @@ const products = [
   },
   {
     "id": 15,
-    "name": "MARACUJÁ",
+    "name": "BROWNIE MARACUJÁ",
     "description": "Pedaços de Brownies e recheio de Maracujá",
     "price": 8.0,
     "emoji": "🍪",
@@ -125,15 +126,15 @@ const products = [
   },
   {
     "id": 16,
-    "name": "BEIJINHO",
-    "description": "Pedaços de Brownies, recheio de Beijinho e finalizado com Cocô ralado",
+    "name": "COPO DE BROWNIE BEIJINHO",
+    "description": "Pedaços de Brownies, recheio de Beijinho e finalizado com Coco ralado",
     "price": 12.0,
     "emoji": "🍮",
     "available": true
   },
   {
     "id": 17,
-    "name": "AMENDOIM",
+    "name": "COPO DE BROWNIE AMENDOIM",
     "description": "Pedaços de Brownies, recheio de Amendoim e finalizado com Xerém de Amendoim",
     "price": 12.0,
     "emoji": "🍮",
@@ -141,7 +142,7 @@ const products = [
   },
   {
     "id": 18,
-    "name": "CHURROS",
+    "name": "COPO DE BROWNIE CHURROS",
     "description": "Pedaços de Brownies, recheio de Churros (Doce de leite com canela) e finalizado com gotas de chocolate",
     "price": 12.0,
     "emoji": "🍮",
@@ -149,7 +150,7 @@ const products = [
   },
   {
     "id": 19,
-    "name": "UVINHA",
+    "name": "COPO DE BROWNIE UVINHA",
     "description": "Recheio branco, pedaços de Brownies, uva sem semente e recheio de chocolate",
     "price": 13.0,
     "emoji": "🍮",
@@ -157,7 +158,7 @@ const products = [
   },
   {
     "id": 20,
-    "name": "REAL",
+    "name": "COPO DE BROWNIE REAL",
     "description": "Recheio branco, pedaços de Brownies, morangos cortados e recheio de chocolate",
     "price": 13.0,
     "emoji": "🍮",
@@ -165,7 +166,7 @@ const products = [
   },
   {
     "id": 21,
-    "name": "MORANINHO",
+    "name": "COPO DE BROWNIE MORANINHO",
     "description": "Recheio de Ninho, massa de bolo de Baunilha e pedaços de morangos",
     "price": 13.0,
     "emoji": "🍮",
@@ -173,7 +174,7 @@ const products = [
   },
   {
     "id": 22,
-    "name": "MARACUJÁ",
+    "name": "COPO DE BROWNIE MARACUJÁ",
     "description": "Pedaços de Brownies, recheio de Maracujá (Fruta) e finalizado com gotas de chocolate/granulado",
     "price": 13.0,
     "emoji": "🍮",
