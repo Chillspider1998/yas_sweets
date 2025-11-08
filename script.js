@@ -10,7 +10,7 @@ const products = [
     "price": 6.0,
     "emoji": "🍪",
     "available": true,
-    "image": "assets/bolo_pote_chocolate.jpeg"
+    "image": "assets\bolo_pote_chocolate.jpeg"
   },
   {
     "id": 2,
