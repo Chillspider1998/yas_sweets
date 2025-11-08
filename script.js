@@ -10,7 +10,7 @@ const products = [
     "price": 6.0,
     "emoji": "🍪",
     "available": true,
-    "image": "assets\bolo_pote_chocolate.jpeg"
+    "image": "./assets/bolo_pote_chocolate.jpeg"
   },
   {
     "id": 2,
@@ -18,7 +18,8 @@ const products = [
     "description": "Massa de Baunilha e recheio de Beijinho",
     "price": 6.0,
     "emoji": "🍪",
-    "available": true
+    "available": true,
+    "image": "./assets/bolo_pote_branquinho.jpeg"
   },
   {
     "id": 3,
@@ -26,7 +27,8 @@ const products = [
     "description": "Massa de Baunilha e recheio de Bem-casado",
     "price": 6.0,
     "emoji": "🍪",
-    "available": true
+    "available": true,
+    "image": "./assets/bolo_pote_bem-casado.jpeg"
   },
   {
     "id": 4,
@@ -34,7 +36,8 @@ const products = [
     "description": "Massa de Baunilha e recheio de Branquinho",
     "price": 6.0,
     "emoji": "🍪",
-    "available": true
+    "available": true,
+    "image": "./assets/bolo_pote_branquinho.jpeg"
   },
   {
     "id": 5,
@@ -42,7 +45,8 @@ const products = [
     "description": "Massa de Baunilha e recheio de Amendoim",
     "price": 6.0,
     "emoji": "🍪",
-    "available": true
+    "available": true,
+    "image": "./assets/bolo_pote_amendoim.jpeg"
   },
   {
     "id": 6,
@@ -50,7 +54,8 @@ const products = [
     "description": "Massa de Baunilha e recheio de Ninho",
     "price": 6.0,
     "emoji": "🍪",
-    "available": true
+    "available": true,
+    "image": "./assets/bolo_pote_ninho.jpeg"
   },
   {
     "id": 7,
@@ -58,7 +63,8 @@ const products = [
     "description": "Massa de Baunilha e recheio de Maracujá",
     "price": 6.0,
     "emoji": "🍪",
-    "available": true
+    "available": true,
+    "image": ""
   },
   {
     "id": 8,
@@ -66,7 +72,8 @@ const products = [
     "description": "Pedaços de Brownies e recheio de Chocolate",
     "price": 8.0,
     "emoji": "🍪",
-    "available": true
+    "available": true,
+    "image": "./assets/brownie_chocolate.jpeg"
   },
   {
     "id": 9,
@@ -74,7 +81,8 @@ const products = [
     "description": "Pedaços de Brownies e recheio de Beijinho",
     "price": 8.0,
     "emoji": "🍪",
-    "available": true
+    "available": true,
+    "image": ""
   },
   {
     "id": 10,
@@ -82,7 +90,8 @@ const products = [
     "description": "Pedaços de Brownies e recheio de Bem-casado",
     "price": 8.0,
     "emoji": "🍪",
-    "available": true
+    "available": true,
+    "image": "./assets/brownie_bem-casado.jpeg"
   },
   {
     "id": 11,
@@ -90,7 +99,8 @@ const products = [
     "description": "Pedaços de Brownies e recheio de Branquinho",
     "price": 8.0,
     "emoji": "🍪",
-    "available": true
+    "available": true,
+    "image": ""
   },
   {
     "id": 12,
@@ -98,7 +108,8 @@ const products = [
     "description": "Pedaços de Brownies e recheio de Amendoim",
     "price": 8.0,
     "emoji": "🍪",
-    "available": true
+    "available": true,
+    "image": "./assets/brownie_amendoim.jpeg"
   },
   {
     "id": 13,
@@ -106,7 +117,8 @@ const products = [
     "description": "Pedaços de Brownies e recheio de Ninho",
     "price": 8.0,
     "emoji": "🍪",
-    "available": true
+    "available": true,
+    "image": "./assets/brownie_ninho.jpeg"
   },
   {
     "id": 14,
@@ -114,7 +126,8 @@ const products = [
     "description": "Pedaços de Brownies e recheio de Churros (Com canela)",
     "price": 8.0,
     "emoji": "🍪",
-    "available": true
+    "available": true,
+    "image": ""
   },
   {
     "id": 15,
@@ -122,7 +135,8 @@ const products = [
     "description": "Pedaços de Brownies e recheio de Maracujá",
     "price": 8.0,
     "emoji": "🍪",
-    "available": true
+    "available": true,
+    "image": ""
   },
   {
     "id": 16,
@@ -130,7 +144,8 @@ const products = [
     "description": "Pedaços de Brownies, recheio de Beijinho e finalizado com Coco ralado",
     "price": 12.0,
     "emoji": "🍮",
-    "available": true
+    "available": true,
+    "image": ""
   },
   {
     "id": 17,
@@ -138,7 +153,8 @@ const products = [
     "description": "Pedaços de Brownies, recheio de Amendoim e finalizado com Xerém de Amendoim",
     "price": 12.0,
     "emoji": "🍮",
-    "available": true
+    "available": true,
+    "image": "./assets/copo_brownie_amendoim.jpeg"
   },
   {
     "id": 18,
@@ -146,7 +162,8 @@ const products = [
     "description": "Pedaços de Brownies, recheio de Churros (Doce de leite com canela) e finalizado com gotas de chocolate",
     "price": 12.0,
     "emoji": "🍮",
-    "available": true
+    "available": true,
+    "image": ""
   },
   {
     "id": 19,
@@ -154,7 +171,8 @@ const products = [
     "description": "Recheio branco, pedaços de Brownies, uva sem semente e recheio de chocolate",
     "price": 13.0,
     "emoji": "🍮",
-    "available": true
+    "available": true,
+    "image": "./assets/copo_brownie_uvinha.jpeg"
   },
   {
     "id": 20,
@@ -162,7 +180,8 @@ const products = [
     "description": "Recheio branco, pedaços de Brownies, morangos cortados e recheio de chocolate",
     "price": 13.0,
     "emoji": "🍮",
-    "available": true
+    "available": true,
+    "image": "./assets/copo_brownie_real.jpeg"
   },
   {
     "id": 21,
@@ -170,7 +189,8 @@ const products = [
     "description": "Recheio de Ninho, massa de bolo de Baunilha e pedaços de morangos",
     "price": 13.0,
     "emoji": "🍮",
-    "available": true
+    "available": true,
+    "image": "./assets/copo_brownie_moraninho.jpeg"
   },
   {
     "id": 22,
@@ -178,7 +198,8 @@ const products = [
     "description": "Pedaços de Brownies, recheio de Maracujá (Fruta) e finalizado com gotas de chocolate/granulado",
     "price": 13.0,
     "emoji": "🍮",
-    "available": true
+    "available": true,
+    "image": ""
   },
   {
     "id": 23,
@@ -186,7 +207,8 @@ const products = [
     "description": "Recheio de branquinho, uva de semente e recheio de chocolate por cima",
     "price": 7.0,
     "emoji": "🍰",
-    "available": true
+    "available": true,
+    "image": ""
   },
   {
     "id": 24,
@@ -194,7 +216,8 @@ const products = [
     "description": "Pudim de leite condensado",
     "price": 8.5,
     "emoji": "🍰",
-    "available": true
+    "available": true,
+    "image": "./assets/pudim.jpeg"
   },
   {
     "id": 25,
@@ -202,7 +225,8 @@ const products = [
     "description": "Açaí P: 4 Complementos grátis",
     "price": 17.0,
     "emoji": "🍰",
-    "available": true
+    "available": true,
+    "image": "./assets/açaí.jpeg"
   },
   {
     "id": 26,
@@ -210,7 +234,8 @@ const products = [
     "description": "Açaí M: 6 Complementos grátis",
     "price": 22.0,
     "emoji": "🍰",
-    "available": true
+    "available": true,
+    "image": "./assets/açaí.jpeg"
   },
   {
     "id": 27,
@@ -218,23 +243,26 @@ const products = [
     "description": "Recheio de frango com requeijão",
     "price": 5.0,
     "emoji": "🥐",
-    "available": true
+    "available": true,
+    "image": "./assets/empada.jpeg"
   },
   {
     "id": 28,
-    "name": "COXINHA FRANGO",
+    "name": "COXINHA DE FRANGO",
     "description": "Recheio de frango com requeijão",
     "price": 6.0,
     "emoji": "🥐",
-    "available": true
+    "available": true,
+    "image": "./assets/coxinha_frango.jpeg.jpeg"
   },
   {
     "id": 29,
-    "name": "COXINHA CHARQUE",
+    "name": "COXINHA DE CHARQUE",
     "description": "Recheio de charque com requeijão",
     "price": 6.0,
     "emoji": "🥐",
-    "available": true
+    "available": true,
+    "image": "./assets/coxinha_charque.jpeg.jpeg"
   },
   {
     "id": 30,
@@ -242,7 +270,8 @@ const products = [
     "description": "Recheio de presunto e queijo",
     "price": 6.0,
     "emoji": "🥐",
-    "available": true
+    "available": true,
+    "image": "./assets/pão_pizza.jpeg.jpeg"
   },
   {
     "id": 31,
@@ -250,7 +279,8 @@ const products = [
     "description": "Recheio de frango com requeijão",
     "price": 6.0,
     "emoji": "🥐",
-    "available": true
+    "available": true,
+    "image": "./assets/pão_frango.jpeg.jpeg"
   },
   {
     "id": 32,
@@ -258,7 +288,8 @@ const products = [
     "description": "Sabores: Calabresa, Frango e Charque",
     "price": 10.0,
     "emoji": "🥐",
-    "available": true
+    "available": true,
+    "image": "./assets/brotinho.jpeg.jpeg"
   }
 ];
 
@@ -282,32 +313,39 @@ function setProductAvailability(productId, available) {
 
 // ===== Renderizar Produtos =====
 function renderProducts() {
-    const productsGrid = document.getElementById('productsGrid');
-    productsGrid.innerHTML = '';
+  const productsGrid = document.getElementById('productsGrid');
+  productsGrid.innerHTML = '';
 
-    products.forEach(product => {
-        const productCard = document.createElement('div');
-        productCard.className = 'product-card';
-        
-        const statusClass = product.available ? 'status-available' : 'status-unavailable';
-        const statusText = product.available ? 'Disponível' : 'Indisponível';
-        const buttonDisabled = !product.available ? 'disabled' : '';
 
-        productCard.innerHTML = `
-            <div class="product-image">${product.emoji}</div>
-            <div class="product-info">
-                <h3 class="product-title">${product.name}</h3>
-                <p class="product-description">${product.description}</p>
-                <p class="product-price">R$ ${product.price.toFixed(2)}</p>
-                <p class="product-status ${statusClass}">${statusText}</p>
-                <button class="btn-add-cart" onclick="addToCart(${product.id})" ${buttonDisabled}>
-                    Adicionar ao Carrinho
-                </button>
-            </div>
-        `;
+  products.forEach(product => {
+    const productCard = document.createElement('div');
+    productCard.className = 'product-card';
+    const statusClass = product.available ? 'status-available' : 'status-unavailable';
+    const statusText = product.available ? 'Disponível' : 'Indisponível';
+    const buttonDisabled = !product.available ? 'disabled' : '';
 
-        productsGrid.appendChild(productCard);
-    });
+
+    const imageTag = product.image
+      ? `<img src="${product.image}" alt="${product.name}" class="product-img" />`
+      : `<div class=\"product-image\">${product.emoji}</div>`;
+
+
+    productCard.innerHTML = `
+      ${imageTag}
+      <div class="product-info">
+        <h3 class="product-title">${product.name}</h3>
+        <p class="product-description">${product.description}</p>
+        <p class="product-price">R$ ${product.price.toFixed(2)}</p>
+        <p class="product-status ${statusClass}">${statusText}</p>
+        <button class="btn-add-cart" onclick="addToCart(${product.id})" ${buttonDisabled}>
+        Adicionar ao Carrinho
+        </button>
+      </div>
+      `;
+
+
+    productsGrid.appendChild(productCard);
+  });
 }
 
 // ===== Adicionar ao Carrinho =====
