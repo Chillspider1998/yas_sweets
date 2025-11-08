@@ -63,8 +63,7 @@ const products = [
     "description": "Massa de Baunilha e recheio de Maracujá",
     "price": 6.0,
     "emoji": "🍪",
-    "available": true,
-    "image": ""
+    "available": true
   },
   {
     "id": 8,
@@ -81,8 +80,7 @@ const products = [
     "description": "Pedaços de Brownies e recheio de Beijinho",
     "price": 8.0,
     "emoji": "🍪",
-    "available": true,
-    "image": ""
+    "available": true
   },
   {
     "id": 10,
@@ -99,8 +97,7 @@ const products = [
     "description": "Pedaços de Brownies e recheio de Branquinho",
     "price": 8.0,
     "emoji": "🍪",
-    "available": true,
-    "image": ""
+    "available": true
   },
   {
     "id": 12,
@@ -126,8 +123,7 @@ const products = [
     "description": "Pedaços de Brownies e recheio de Churros (Com canela)",
     "price": 8.0,
     "emoji": "🍪",
-    "available": true,
-    "image": ""
+    "available": true
   },
   {
     "id": 15,
@@ -135,8 +131,7 @@ const products = [
     "description": "Pedaços de Brownies e recheio de Maracujá",
     "price": 8.0,
     "emoji": "🍪",
-    "available": true,
-    "image": ""
+    "available": true
   },
   {
     "id": 16,
@@ -144,8 +139,7 @@ const products = [
     "description": "Pedaços de Brownies, recheio de Beijinho e finalizado com Coco ralado",
     "price": 12.0,
     "emoji": "🍮",
-    "available": true,
-    "image": ""
+    "available": true
   },
   {
     "id": 17,
@@ -162,8 +156,7 @@ const products = [
     "description": "Pedaços de Brownies, recheio de Churros (Doce de leite com canela) e finalizado com gotas de chocolate",
     "price": 12.0,
     "emoji": "🍮",
-    "available": true,
-    "image": ""
+    "available": true
   },
   {
     "id": 19,
@@ -198,8 +191,7 @@ const products = [
     "description": "Pedaços de Brownies, recheio de Maracujá (Fruta) e finalizado com gotas de chocolate/granulado",
     "price": 13.0,
     "emoji": "🍮",
-    "available": true,
-    "image": ""
+    "available": true
   },
   {
     "id": 23,
@@ -207,8 +199,7 @@ const products = [
     "description": "Recheio de branquinho, uva de semente e recheio de chocolate por cima",
     "price": 7.0,
     "emoji": "🍰",
-    "available": true,
-    "image": ""
+    "available": true
   },
   {
     "id": 24,
