@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yas Sweets - Doces Artesanais</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>Yas Sweets</h1>
+            </div>
+            
+            <!-- Menu Hamburger (Mobile) -->
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <!-- Navigation Menu -->
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link" data-page="home">Home</a>
+                <a href="#about" class="nav-link" data-page="about">Sobre Mim</a>
+                <a href="https://instagram.com" target="_blank" class="nav-link">Instagram</a>
+            </nav>
+            
+            <!-- Cart Icon -->
+            <button class="cart-icon" id="cartIcon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count" id="cartCount">0</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <div class="products-container">
+                <div class="products-grid" id="productsGrid">
+                    <!-- Products will be inserted here by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Page -->
+        <section id="about" class="page">
+            <div class="about-container">
+                <h2>Sobre Mim</h2>
+                <div class="about-content">
+                    <h3>A Yas Sweets nasceu de um recomeço.</h3>
+                    <p>Olá! Me chamo Yasmin Santos, tenho 24 anos e, ao longo do tempo, já reabri a loja algumas vezes. Mesmo com pausas e desafios, nunca deixei de acreditar nesse sonho.</p>
+                    <p>A Yas Sweets surgiu da vontade de recomeçar e acreditar novamente em mim mesma. Depois de altos e baixos, entendi que empreender é um desafio diário — mas também é o caminho para realizar aquilo que realmente me move: adoçar momentos e espalhar felicidade.</p>
+                    <p>Cada receita é preparada com carinho, amor e dedicação, buscando oferecer aos clientes produtos artesanais de qualidade, feitos com ingredientes selecionados e muito cuidado.</p>
+                    <p>Hoje, cada pedido representa mais do que uma venda — representa um pedacinho de mim em forma de doce.</p>
+                    <p>A Yas Sweets é feita de amor, de recomeços e de pessoas que acreditam, assim como eu, que a vida é muito mais bonita quando tem doce no meio. 💕</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Cart Sidebar -->
+    <aside class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h2>Carrinho</h2>
+            <button class="close-cart" id="closeCart">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items will be inserted here by JavaScript -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">R$ 0,00</span>
+            </div>
+            <button class="btn-checkout" id="checkoutBtn">Finalizar Compra</button>
+        </div>
+    </aside>
+
+    <!-- Overlay for Cart -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
